@@ -3,7 +3,7 @@
 
 	.services-box .services-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; border-radius: 22px; }
 	
-	.about-us-box-text { padding-right: 0; }
+	.about-me-box-text { padding-right: 0; }
 	
 }
 
@@ -11,15 +11,15 @@
 	
 	.navbar-expand-md .navbar-nav .nav-link { padding-left: 0.6rem; padding-right: 0.6rem; }
 	
-	.top-content { padding: 180px 0; }
+	.home-content { padding: 180px 0; }
 
 	.section-description p { padding: 0; }
 	
 	.services-box .services-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
 
-	.about-us-box { margin-top: 80px; }
-	.about-us-box:last-child { margin-top: 50px; }
-	.about-us-box-text { padding-right: 0; text-align: center; }
+	.about-me-box { margin-top: 80px; }
+	.about-me-box:last-child { margin-top: 50px; }
+	.about-me-box-text { padding-right: 0; text-align: center; }
 	
 	.more-services-box .more-services-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
 	
@@ -36,9 +36,9 @@
 	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
 	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
 
-	.top-content { padding: 140px 0; }
-	.top-content .top-big-link { margin-top: 25px; }
-	.top-content .top-big-link a.btn { margin-top: 10px; }
+	.home-content { padding: 140px 0; }
+	.home-content .top-big-link { margin-top: 25px; }
+	.home-content .top-big-link a.btn { margin-top: 10px; }
 	
 	.section-description p { padding: 0; }
 	
@@ -46,9 +46,9 @@
 	.services-box { text-align: center; }
 	.services-box h3 { margin-top: 20px; padding-top: 10px; }
 	
-	.about-us-box { margin-top: 80px; }
-	.about-us-box:last-child { margin-top: 50px; }
-	.about-us-box-text { padding-right: 0; text-align: center; }
+	.about-me-box { margin-top: 80px; }
+	.about-me-box:last-child { margin-top: 50px; }
+	.about-me-box-text { padding-right: 0; text-align: center; }
 	
 	.more-services-box { text-align: center; }
 	.more-services-box h3 { margin-top: 20px; padding-top: 10px; }

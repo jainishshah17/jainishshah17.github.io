@@ -189,26 +189,26 @@ img { max-width: 100%; }
 
 /***** Top content *****/
 
-.top-content {
+.home-content {
     padding: 210px 0;
 }
 
-.top-content .text {
+.home-content .text {
 	color: #fff;
 }
 
-.top-content .text h1 {
+.home-content .text h1 {
 	margin-top: 25px;
 	color: #fff;
 }
 
-.top-content .description {
+.home-content .description {
 	margin: 30px 0 10px 0;
 }
 
-.top-content .description p { opacity: 0.8; }
+.home-content .description p { opacity: 0.8; }
 
-.top-content .top-big-link {
+.home-content .top-big-link {
 	margin-top: 45px;
 }
 
@@ -248,28 +248,28 @@ img { max-width: 100%; }
 
 /***** About us *****/
 
-.about-us-box {
+.about-me-box {
 	margin-top: 100px;
 }
 
-.about-us-box-text {
+.about-me-box-text {
 	padding-right: 30px;
 	text-align: left;
 }
 
-.about-us-box-text h3 {
+.about-me-box-text h3 {
 	margin-top: 0;
 }
 
-.about-us-box-text .medium-paragraph {
+.about-me-box-text .medium-paragraph {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.about-us-box-text a { border-bottom: 1px dashed #9b59b6; }
-.about-us-box-text a:hover, .about-us-box-text a:focus { border: 0; }
+.about-me-box-text a { border-bottom: 1px dashed #9b59b6; }
+.about-me-box-text a:hover, .about-me-box-text a:focus { border: 0; }
 
-.about-us-box-img img {
+.about-me-box-img img {
 	border-radius: 4px;
 }
 
