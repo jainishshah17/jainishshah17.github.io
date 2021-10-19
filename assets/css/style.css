@@ -181,7 +181,7 @@ img { max-width: 100%; }
 
 .navbar-brand {
 	width: 136px;
-	background: url("/assets/img/logo@2x.jpg") left center no-repeat;
+	background: url("/assets/img/logo.jpg") left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
 }
