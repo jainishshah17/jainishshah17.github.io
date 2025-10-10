@@ -7,17 +7,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Jainish Shah</title>
+    <title>Jainish Shah - Software Development Engineer</title>
+    <meta name="description" content="Software Development Engineer specializing in DevOps, Kubernetes, and Cloud Technologies">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-    <link rel="stylesheet" href="https://vjs.zencdn.net/4.12/video-js.css">
-    <script src="https://vjs.zencdn.net/4.12/video.js"></script>
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media-queries.css">
 
@@ -32,699 +29,839 @@
 
 <body>
 
-<!-- Top menu -->
-<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Jainish Shah</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#home-content">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#about-me">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#testimonials">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#blog">Blog</a>
-                </li>
-            </ul>
+        <div class="nav-wrapper">
+            <a class="nav-brand" href="#home">
+                <span class="brand-name">Jainish Shah</span>
+            </a>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
         </div>
     </div>
 </nav>
 
-<!-- Top content -->
-<div class="home-content">
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div class="hero-background"></div>
     <div class="container">
-
-        <div class="row">
-            <div class="col-md-4 background wow fadeInRightBig">
-                <img src="assets/img/Final.png" class="img-responsive img-thumbnail center-block">
+        <div class="hero-content">
+            <div class="hero-image-wrapper">
+                <div class="hero-image-container">
+                    <img src="assets/img/Final.png" alt="Jainish Shah" class="hero-image">
+                    <div class="image-glow"></div>
+                </div>
             </div>
-            <div class="col-md-8 background wow fadeInLeftBig text text-left">
-                <div class="transbox">
-                    <p class="medium-paragraph ">
-                        My name is Jainish Shah. I'm a Software Development Engineer.
-                        I build modern, simple, responsive application.
-                        I am passionate about SAAS Solutions and Container Orchestration tools like DC/OS, Kubernetes,
-                        RedHat OpenShift, Docker Swarm.
-                        I Have hands-on experience with CI/CD pipelines on cloud (AWS, GCP, Azure). Got a chance to
-                        contribution to the open source communities like puppet, homebrew, helm, mesosphere.
-                    </p>
-                    <p class="medium-paragraph">
-                        My work history has provided me a variety of business skills, which allow me to relate to all
-                        levels of management, to a variety of business positions, and work successfully with a diversity
-                        of personalities, customers, and end-users. As being part of Solution Development team in
-                        JFrog I am working on cutting edge technologies like Mesosphere DC/OS, K8S, Homebrew, CircleCI,
-                        Terraform, AWS CloudFormation to provide ways to deploy Artifactory.
-                    </p>
-                    <p class="medium-paragraph">
-                        My education has provided me with a variety of information systems knowledge and practical
-                        skills; primarily in software engineering, Java development, and Continuous Integration /
-                        Continuous Delivery, as well as network design, implementation, and administration, information
-                        systems security, SQL Server and NoSQL query development, and database management (RIAK,
-                        MongoDB, InfluxDB, MySQL). I also have proficient skills with website design, HTML, CSS, and
-                        JavaScript development (Angular.js, express.js, Node.js), as well as website administration.
-                    </p>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Jainish Shah</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Development Engineer</h2>
+                <p class="hero-description">
+                    I build modern, scalable applications with a focus on DevOps, Container Orchestration, and Cloud Technologies. 
+                    Passionate about Kubernetes, CI/CD pipelines, and contributing to open source communities.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">12+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">15+</div>
+                        <div class="stat-label">Blog Posts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">10+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://github.com/jainishshah17/jainishshah.com/raw/master/app/assets/documents/Jainish-Resume.pdf" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/jainishshah17" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jainishshah" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/jainishshah24" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://medium.com/@jainishshah17" target="_blank" class="social-link" aria-label="Medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<!-- About me -->
-<div class="about-me-container section-container section-container-gray-bg">
-    <div align="center">
-        <p>
-        <h1><span class="glyphicon glyphicon-education"></span>My Education:</h1>
-        </p>
-        <p>
-        <h3>Masters</h3>
-        <h4>International Technological University, San Jose, CA, USA</h4>
-        <h4>Masters in Software Engineering</h4>
-        </p>
-        <p>
-        <h3>Bachelor</h3>
-        <h4>Gujarat Technological University, Bharuch, Gujarat, India</h4>
-        <h4>Bachelor in Computer Engineering</h4>
-        </p>
-        <p>
-        <h3>Diploma</h3>
-        <h4>The Maharaja Sayajirao University of Baroda, Baroda, Gujarat, India</h4>
-        <h4>Diploma in Computer Engineering</h4>
-        </p>
+    <div class="scroll-indicator">
+        <a href="#about" class="scroll-link">
+            <span class="scroll-text">Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </a>
     </div>
-    <a class="btn btn-primary"
-       href="https://github.com/jainishshah17/jainishshah.com/raw/master/app/assets/documents/Jainish-Resume.pdf">Download
-        Resume</a>
-    <div align="center" class="container">
-        <p>
-        <h2>My Work Experience</h2>
-        </p>
-        <p>
-        <h3>Workday</h3>
-        <ul class="list-group text-left">
-            <li class="list-group-item">Responsible for developing Tools and services to help multiple development
-                teams.
-            </li>
-            <li class="list-group-item">Responsible for developing Tools and services to help multiple development
-                teams.
-            </li>
-            <li class="list-group-item">Manage Java APIs, Gradle plugins, self service UIs.</li>
-            <li class="list-group-item">Develope and manage monitoring and graphing applications.</li>
-            <li class="list-group-item">Develope automation scripts to manage Artifactory e.g Terraform, Chef
-                cookbook.
-            </li>
-            <li class="list-group-item">JFrog Artifactory, Xray and Mission Control System Administration.</li>
-        </ul>
-        </p>
-        <p>
-        <h3>JFrog</h3>
-        <ul class="list-group text-left">
-            <li class="list-group-item">Responsible for developing Tools and Script for DevOps.</li>
-            <li class="list-group-item">User plugin Development using Groovy, Ruby.</li>
-            <li class="list-group-item">Enable private­Bower Setup for users.</li>
-            <li class="list-group-item">Developed Build Release and Promotion Pipeline using Jenkins/Bamboo and
-                Artifactory
-                for CI/CD.
-            </li>
-            <li class="list-group-item">Build and release management by setting up Bamboo and Artifactory for CI/CD</li>
-            <li class="list-group-item">Developer and maintainer of helm charts of JFrog products</li>
-            <li class="list-group-item">Developed plugin for Bitbucket Cloud using Atlassian Connect</li>
-            <li class="list-group-item">Provided integrations for community solutions like: Homebrew, Helm, Puppet,
-                Travis
-                CI, CircleCI, Terraform, AWS CloudFormation
-            </li>
-        </ul>
-        </p>
-        <p>
-        <h3>Zephyr</h3>
-        <ul class="list-group text-left">
-            <li class="list-group-item">Responsible for developing Tools and Script for DevOps.</li>
-            <li class="list-group-item">Build and release management by setting up Bamboo for CI/CD.</li>
-            <li class="list-group-item">Development of Virtual Environment for Production and QA using Docker.</li>
-            <li class="list-group-item">Auto builds Configuration using Grunt Script and NPM dependencies.</li>
-            <li class="list-group-item">Used Test-Driven Development with SCRUM Agile methodology.</li>
-            <li class="list-group-item">Implemented Zabbix-based monitoring for the whole corporate heterogeneous IT
-                infrastructure (Unix, Linux, Windows servers / Databases).
-            </li>
-            <li class="list-group-item">Implemented centralized log processing using LogStash, Kibana and Elasticsearch.
-            </li>
-            <li class="list-group-item">Monitored developed applications and fixed bugs.</li>
-            <li class="list-group-item">Worked on setting and monitoring Cluster of RIAK, Elasticsearch, Hazelcast.</li>
-        </ul>
-        </p>
-        <p>
-        <h3>Rahi System</h3>
-        <ul class="list-group text-left">
-            <li class="list-group-item">Participate in requirement gathering, system business analysis for proposed
-                software.
-            </li>
-            <li class="list-group-item">Collaborate with other departments to better define requirements and
-                implementation
-                of software features.
-            </li>
-            <li class="list-group-item">Develop new software features and functionality in cooperation with a team.</li>
-            <li class="list-group-item">Implement software defect fixes in cooperation with a team.</li>
-            <li class="list-group-item">Troubleshoot software performance issues and investigate defect report.</li>
-            <li class="list-group-item">Working on development of IT Analytics Product.</li>
-            <li class="list-group-item">Architect the website in MVC pattern using Apache Struts 2.0 Technology.</li>
-            <li class="list-group-item">Worked with JSON for data exchange between client and server.</li>
-            <li class="list-group-item">Defined and developed the application’s presentation layer using HTML5, CSS3,
-                JavaScript and jQuery Scripting.
-            </li>
-            <li class="list-group-item">Assist with all aspects of a project lifecycle.</li>
-            <li class="list-group-item">Used Test-Driven Development with SCRUM Agile methodology.</li>
-            <li class="list-group-item">Code and develop features for Network and Hardware Utilization on Client-side.
-            </li>
-            <li class="list-group-item">Implement features on Server-side for different user profile features.</li>
-        </ul>
-        </p>
-        <p>
-        <h3>International Technological University</h3>
-        </p>
-        <ul class="list-group text-left">
-            <li class="list-group-item">Record all lecture of all subjects.</li>
-            <li class="list-group-item">Upload all videos to university’s server.</li>
-            <li class="list-group-item">Manage and upload all lecture Videos to website for student access.</li>
-            <li class="list-group-item">Convert files to suitable formats.</li>
-            <li class="list-group-item">Handle all operations on Mac platform.</li>
-        </ul>
-    </div>
-</div>
+</section>
 
-<!-- Portfolio -->
-<div class="portfolio-container section-container">
+<!-- About Section -->
+<section class="about-section" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col portfolio section-description wow fadeIn">
-                <h2>Portfolio</h2>
-            </div>
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Building the Future with Code</h2>
+            <p class="section-description">
+                Passionate software engineer with expertise in cloud-native technologies and DevOps practices
+            </p>
         </div>
-        <div class="row">
-            <div class="col portfolio section-description wow fadeIn">
-                <h3>My Projects</h3>
-                <div class="divider-1 wow fadeInUp"><span></span></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 portfolio-box wow fadeInUp">
-                <h3>Dholiwood.com<i class="fas fa-angle-right"></i></h3>
+        
+        <div class="about-content">
+            <div class="about-text">
                 <p>
-                    It is a hub of Gujarati Cinemas.
-                    It is an idea to make a website which will be single source of information for all Gujarati
-                    Movies, Music, Natak, Upcoming movies.<br>
-                    A portal where gujjus can search for Hot things happening in dholiwood. <br>
-                    Where they can rate Dholiwood movies, provide their reviews. <br>
-                    A place where Gujjus can advertise for their business. It is a business thought came in mind
-                    of few gujju NRIs.
+                    I'm a Software Development Engineer specializing in building modern, scalable applications and cloud infrastructure. 
+                    My passion lies in SAAS Solutions and Container Orchestration tools like Kubernetes, DC/OS, RedHat OpenShift, and Docker Swarm.
+                </p>
+                <p>
+                    With hands-on experience in CI/CD pipelines across AWS, GCP, and Azure, I've had the privilege of contributing 
+                    to open source communities including Puppet, Homebrew, Helm, and Mesosphere. Currently at Workday, I develop tools 
+                    and services that empower multiple development teams.
+                </p>
+                <p>
+                    My expertise spans software engineering, Java development, database management (RIAK, MongoDB, InfluxDB, MySQL), 
+                    and modern web technologies (Angular.js, Express.js, Node.js). I thrive on solving complex problems and 
+                    building solutions that make a difference.
                 </p>
             </div>
-            <div class="col-md-3 portfolio-box wow fadeInUp">
-                <h3>Multiplex Ticket Booking System<i class="fas fa-angle-right"></i></h3>
-                <p>
-                    Multiplex Ticket Booking System is for employees of Cinema to provide their user a graphical
-                    interface to choose seats in theater by providing seating arrangement in visual form. This
-                    project was developed in Visual Basic. </p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-cloud"></i>
+                        Cloud & DevOps
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">CircleCI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i>
+                        Development
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Groovy</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Ruby</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-database"></i>
+                        Databases
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">InfluxDB</span>
+                        <span class="skill-tag">RIAK</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Platforms
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JFrog Artifactory</span>
+                        <span class="skill-tag">Helm</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Gradle</span>
+                        <span class="skill-tag">Bamboo</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 portfolio-box wow fadeInUp">
-                <h3>Student Relationship Management System<i class="fas fa-angle-right"></i></h3>
-                <p>
-                    It is a software solution which creates a bridge between Parents, Professors, and
-                    Students.<br>
-                    This product can be used by an educational institution to maintain records of students and
-                    manage activities of the Institute.<br>
-                    SRMS is built on ASP.NET platform using SQL server 2005 as backend.
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="education-section" id="education">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Education</span>
+            <h2 class="section-title">Academic Background</h2>
+        </div>
+        
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">Masters</span>
+                    <h3 class="timeline-title">Masters in Software Engineering</h3>
+                    <p class="timeline-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        International Technological University, San Jose, CA, USA
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">Bachelor</span>
+                    <h3 class="timeline-title">Bachelor in Computer Engineering</h3>
+                    <p class="timeline-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Gujarat Technological University, Bharuch, Gujarat, India
+                    </p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-badge">Diploma</span>
+                    <h3 class="timeline-title">Diploma in Computer Engineering</h3>
+                    <p class="timeline-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        The Maharaja Sayajirao University of Baroda, Baroda, Gujarat, India
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience-section" id="experience">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Experience</span>
+            <h2 class="section-title">Work History</h2>
+            <p class="section-description">
+                Building innovative solutions and leading DevOps initiatives
+            </p>
+        </div>
+        
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-company">
+                        <h3>Workday</h3>
+                        <span class="experience-role">Software Development Engineer</span>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+                <ul class="experience-list">
+                    <li>Develop tools and services to empower multiple development teams</li>
+                    <li>Manage Java APIs, Gradle plugins, and self-service UIs</li>
+                    <li>Build and maintain monitoring and graphing applications</li>
+                    <li>Create automation scripts for Artifactory management using Terraform and Chef</li>
+                    <li>JFrog Artifactory, Xray, and Mission Control system administration</li>
+                </ul>
+            </div>
+            
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-company">
+                        <h3>JFrog</h3>
+                        <span class="experience-role">Solutions Engineer</span>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+                <ul class="experience-list">
+                    <li>Developed DevOps tools and user plugins using Groovy and Ruby</li>
+                    <li>Built CI/CD pipelines with Jenkins/Bamboo and Artifactory</li>
+                    <li>Developer and maintainer of Helm charts for JFrog products</li>
+                    <li>Created Bitbucket Cloud plugin using Atlassian Connect</li>
+                    <li>Provided integrations for Homebrew, Helm, Puppet, Travis CI, CircleCI, Terraform, and AWS CloudFormation</li>
+                </ul>
+            </div>
+            
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-company">
+                        <h3>Zephyr</h3>
+                        <span class="experience-role">DevOps Engineer</span>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+                <ul class="experience-list">
+                    <li>Implemented Bamboo for CI/CD build and release management</li>
+                    <li>Developed virtual environments for Production and QA using Docker</li>
+                    <li>Configured auto builds using Grunt scripts and NPM dependencies</li>
+                    <li>Deployed Zabbix-based monitoring for heterogeneous IT infrastructure</li>
+                    <li>Implemented centralized log processing with ELK stack (Elasticsearch, Logstash, Kibana)</li>
+                    <li>Managed and monitored RIAK, Elasticsearch, and Hazelcast clusters</li>
+                </ul>
+            </div>
+            
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div class="experience-company">
+                        <h3>Rahi System</h3>
+                        <span class="experience-role">Software Engineer</span>
+                    </div>
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </div>
+                <ul class="experience-list">
+                    <li>Developed IT Analytics product with Apache Struts 2.0 MVC architecture</li>
+                    <li>Built presentation layer using HTML5, CSS3, JavaScript, and jQuery</li>
+                    <li>Implemented JSON-based client-server data exchange</li>
+                    <li>Used Test-Driven Development with SCRUM Agile methodology</li>
+                    <li>Developed features for network and hardware utilization monitoring</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio-section" id="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+                Showcasing my work in software development and DevOps
+            </p>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-film"></i>
+                </div>
+                <h3 class="project-title">Dholiwood.com</h3>
+                <p class="project-description">
+                    A comprehensive hub for Gujarati Cinema featuring movies, music, and upcoming releases. 
+                    A portal where users can rate movies, provide reviews, and stay updated with the latest 
+                    happenings in Dholiwood entertainment.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Full Stack</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-ticket-alt"></i>
+                </div>
+                <h3 class="project-title">Multiplex Ticket Booking System</h3>
+                <p class="project-description">
+                    A graphical interface system for cinema employees to manage seat bookings with visual 
+                    seating arrangements. Built with Visual Basic for enhanced user experience.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Visual Basic</span>
+                    <span class="tag">Desktop App</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3 class="project-title">Student Relationship Management System</h3>
+                <p class="project-description">
+                    A software solution bridging communication between parents, professors, and students. 
+                    Helps educational institutions maintain records and manage activities efficiently. 
+                    Built on ASP.NET with SQL Server backend.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">ASP.NET</span>
+                    <span class="tag">SQL Server</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <h3 class="project-title">Desktop As A Service</h3>
+                <p class="project-description">
+                    World Desk for Enterprise - a platform for on-demand desktop delivery. Optimizes desktop 
+                    lifecycle management including creation, provisioning, and management of virtual desktops.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Cloud</span>
+                    <span class="tag">Virtualization</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="videos-section">
+            <div class="section-header">
+                <h3 class="section-subtitle">Video Highlights</h3>
+                <p class="section-description">
+                    Technical presentations and tutorials
                 </p>
             </div>
-            <div class="col-md-3 portfolio-box wow fadeInUp">
-                <h3>Desktop As A Service<i class="fas fa-angle-right"></i></h3>
-                <p>
-                    World Desk for Enterprise is a platform which provisions On-Demand Desktop delivery to
-                    users. <br>
-                    The project aims to build a platform which optimizes the Desktop life cycle management
-                    process, which includes creating, provisioning and managing the desktops.
-                </p>
+            
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/OH6gka7jM7s" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/oac7DUzjTfU" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/LRD_9fBvQa0" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/TvI-3ntDVqs" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/2y9TlY0kfT8" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/WJ5DJldWsfA" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col portfolio section-description wow fadeIn">
-                <h3>What Else I can Do..</h3>
-                <div class="divider-1 wow fadeInUp"><span></span></div>
-            </div>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/OH6gka7jM7s"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/oac7DUzjTfU"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/LRD_9fBvQa0"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/TvI-3ntDVqs"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/2y9TlY0kfT8"
-                    frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row movie">
-            <iframe align="center" width="100%" height="480" src="https://www.youtube.com/embed/WJ5DJldWsfA"
-                    frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-</div>
+</section>
 
-<!-- Testimonials -->
-<div class="testimonials-container section-container section-container-image-bg">
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
     <div class="container">
-        <div class="row">
-            <div class="col testimonials section-description wow fadeIn"></div>
+        <div class="section-header">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-description">
+                Have a project in mind? Let's connect and make it happen
+            </p>
         </div>
-        <div class="row">
-            <div class="col-md-10 offset-md-1 testimonial-list wow fadeInUp">
-
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-
-                        <div class="testimonial-image">
-                            <img src="assets/img/logo@3x.jpg" alt="testimonial-1"
-                            >
-                        </div>
-                        <div class="testimonial-text">
-                            <h2>Get in Touch</h2>
-                            <div id="contact-form">
-                                <form action="https://formspree.io/f/xqkwoenk" method="POST">
-                                    <input type="hidden" name="_subject" class="form-control"
-                                           value="Contact request from personal website"/>
-                                    <input type="email" name="_replyto" class="form-control" placeholder="Your email"
-                                           required>
-                                    <textarea name="message" class="form-control" placeholder="Type your message"
-                                              required></textarea>
-                                    <button type="submit">Send</button>
-                                </form>
-                            </div>
-                        </div>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
+                    <h3>Email</h3>
+                    <p>Send me a message anytime</p>
                 </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Check out my repositories</p>
+                    <a href="https://github.com/jainishshah17" target="_blank" class="contact-link">@jainishshah17</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Let's connect professionally</p>
+                    <a href="https://www.linkedin.com/in/jainishshah" target="_blank" class="contact-link">@jainishshah</a>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <form action="https://formspree.io/f/xqkwoenk" method="POST" class="contact-form">
+                    <input type="hidden" name="_subject" value="Contact request from personal website"/>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" 
+                               id="email"
+                               name="_replyto" 
+                               class="form-input" 
+                               placeholder="your@email.com"
+                               required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message"
+                                  name="message" 
+                                  class="form-textarea" 
+                                  placeholder="Tell me about your project..."
+                                  rows="6"
+                                  required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<!-- Blog -->
-<div class="blog-container section-container">
+<!-- Blog Section -->
+<section class="blog-section" id="blog">
     <div class="container">
-
-        <div class="row">
-            <div class="col blog section-description wow fadeIn">
-                <h2>Blogs</h2>
-                <div class="divider-1 wow fadeInUp"><span></span></div>
-            </div>
+        <div class="section-header">
+            <span class="section-tag">Blog</span>
+            <h2 class="section-title">Latest Articles</h2>
+            <p class="section-description">
+                Sharing knowledge and insights on DevOps, Kubernetes, and Cloud Technologies
+            </p>
         </div>
 
-        <div class="row">
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2019/02/What-would-devops-be-without-Artifactory-03-1.jpg"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/enterprise-cloud-devops-on-azure/">Enterprise Cloud DevOps
-                            on Azure is Clicks Away</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Feb 26 2019</div>
-                        <p>
-                            JFrog Artifactory in Azure Marketplace
-                        </p>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://jfrog.com/wp-content/uploads/2019/02/What-would-devops-be-without-Artifactory-03-1.jpg"
+                         alt="Enterprise Cloud DevOps on Azure" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2019/03/Helm-Chart-Best-Practices_862%C3%97%E2%80%8A300.png"
-                                 alt="">
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Feb 26, 2019
+                        </span>
+                        <span class="blog-category">Azure</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/helm-charts-best-practices/">Steering Straight with Helm
-                            Charts Best Practices</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> March 28 2019</div>
-                        <p>
-                            Helm Charts Best Practices
-                        </p>
+                    <h3 class="blog-title">
+                        <a href="https://jfrog.com/blog/enterprise-cloud-devops-on-azure/" target="_blank">
+                            Enterprise Cloud DevOps on Azure is Clicks Away
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        JFrog Artifactory in Azure Marketplace
+                    </p>
+                    <a href="https://jfrog.com/blog/enterprise-cloud-devops-on-azure/" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://jfrog.com/wp-content/uploads/2019/03/Helm-Chart-Best-Practices_862%C3%97%E2%80%8A300.png"
+                         alt="Helm Charts Best Practices" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://cdn-images-1.medium.com/max/1200/0*pVOP-zUniVHNMXU8.jpg" alt=""
-                            >
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Mar 28, 2019
+                        </span>
+                        <span class="blog-category">Kubernetes</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://medium.com/@jainishshah17/tugger-b35100234d59">Kubernetes Admission webhook
-                            to enforce pulling of Docker images from the private registry</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Jan 27 2019</div>
-                        <p>
-                            Tugger a Kubernetes Admission webhook
-                        </p>
+                    <h3 class="blog-title">
+                        <a href="https://jfrog.com/blog/helm-charts-best-practices/" target="_blank">
+                            Steering Straight with Helm Charts Best Practices
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        Helm Charts Best Practices
+                    </p>
+                    <a href="https://jfrog.com/blog/helm-charts-best-practices/" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://cdn-images-1.medium.com/max/1200/0*pVOP-zUniVHNMXU8.jpg"
+                         alt="Tugger Kubernetes Admission webhook" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2019/02/BLOG_K8s_puzzle863X300.jpg" alt=""
-                            >
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Jan 27, 2019
+                        </span>
+                        <span class="blog-category">Kubernetes</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/kubernetes-puzzle-for-icp/">Complete the Kubernetes Puzzle
-                            for IBM Cloud Private</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Feb 14 2019</div>
-                        <p>
-                            Installing Artifactory in IBM Cloud Private
-                        </p>
+                    <h3 class="blog-title">
+                        <a href="https://medium.com/@jainishshah17/tugger-b35100234d59" target="_blank">
+                            Kubernetes Admission webhook to enforce pulling Docker images
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        Tugger a Kubernetes Admission webhook
+                    </p>
+                    <a href="https://medium.com/@jainishshah17/tugger-b35100234d59" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://jfrog.com/wp-content/uploads/2019/02/BLOG_K8s_puzzle863X300.jpg"
+                         alt="Kubernetes IBM Cloud Private" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://rancher.com/img/blog/2018/Jfrog-Rancher-ConfigMap.jpg" alt=""
-                            >
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Feb 14, 2019
+                        </span>
+                        <span class="blog-category">IBM Cloud</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://rancher.com/blog/2018/2019-01-02-herd-multi-cloud-kubernetes-strategy-with-artifactory/">Herd
-                                your Rancher Labs multi-cloud strategy with Artifactory</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Jan 02 2019</div>
-                        <p>
-                            Installing Artifactory with RKE
-                        </p>
+                    <h3 class="blog-title">
+                        <a href="https://jfrog.com/blog/kubernetes-puzzle-for-icp/" target="_blank">
+                            Complete the Kubernetes Puzzle for IBM Cloud Private
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        Installing Artifactory in IBM Cloud Private
+                    </p>
+                    <a href="https://jfrog.com/blog/kubernetes-puzzle-for-icp/" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://jfrog.com/wp-content/uploads/2018/02/863x300.png"
+                         alt="Kubernetes CI/CD with Artifactory" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2019/01/863X300.jpg" alt=""
-                            >
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Feb 20, 2018
+                        </span>
+                        <span class="blog-category">Kubernetes</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://jfrog.com/blog/herd-trust-into-your-rancher-labs-multi-cloud-strategy-with-artifactory/">Herd
-                                Trust Into Your Rancher Labs Multi-Cloud Strategy with Artifactory</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Jan 02 2019</div>
-                        <p>
-                            Installing Artifactory with Rancher
-                        </p>
+                    <h3 class="blog-title">
+                        <a href="https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/" target="_blank">
+                            Control Your Kubernetes Voyage with JFrog Artifactory
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        5-Step Kubernetes CI/CD Process using Artifactory & Helm
+                    </p>
+                    <a href="https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://jfrog.com/wp-content/uploads/2018/04/Terraform_Artifactory_863x300.jpg"
+                         alt="Terraform Artifactory" loading="lazy">
+                    <div class="blog-overlay">
+                        <i class="fas fa-external-link-alt"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2019/02/IBM-Cloud-Blog_863x300.png" alt=""
-                            >
-                        </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date">
+                            <i class="far fa-calendar"></i>
+                            Apr 24, 2018
+                        </span>
+                        <span class="blog-category">Terraform</span>
                     </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/cruise-safely-on-ibm-cloud/">Cruise Safely on IBM Cloud’s
-                            Road to DevOps</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Feb 7 2019</div>
-                        <p>
-                            Installing Artifactory in IBM Cloud
-                        </p>
-                    </div>
+                    <h3 class="blog-title">
+                        <a href="https://jfrog.com/blog/use-terraform-to-easily-manage-your-artifactory-infrastructure/" target="_blank">
+                            Use Terraform to Easily Manage Your Artifactory Infrastructure
+                        </a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        Deploy Artifactory Using Terraform
+                    </p>
+                    <a href="https://jfrog.com/blog/use-terraform-to-easily-manage-your-artifactory-infrastructure/" target="_blank" class="blog-link">
+                        Read More <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://cdn-images-1.medium.com/max/1600/1*VdW2Y-XYrhZ4rreRD77heQ.jpeg" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://medium.com/@jainishshah17/kubernetes-nginx-ingress-with-artifactory-on-gke-e6781d4ab5e8">Kubernetes
-                                Nginx-Ingress with Artifactory on GKE</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Aug 18 2018</div>
-                        <p>
-                            Artifactory as docker registry with nginx-ingress
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://bitbucket.org/blog/wp-content/uploads/2018/08/jfrog1.png" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://bitbucket.org/blog/discoveries-release-management-plugin-jfrog">Using JFrog
-                            with Bitbucket Pipelines</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Aug 30 2018</div>
-                        <p>
-                            Better release management with JFrog and Bitbucket Pipelines
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2018/02/863x300.png" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/control-your-kubernetes-voyage-with-artifactory/">Control
-                            Your Kubernetes Voyage with JFrog Artifactory</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> Feb 20 2018</div>
-                        <p>
-                            5-Step Kubernetes CI/CD Process using Artifactory & Helm
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2018/05/Azure_ACI_863x300.jpg" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/kubernetes-registry-for-azure-container-instances/">Kubernetes
-                            Registry for Azure Container Instances (ACI)</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> May 28 2018</div>
-                        <p>
-                            Integrating Artifactory with Azure Container Instances
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2018/04/Terraform_Artifactory_863x300.jpg"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://jfrog.com/blog/use-terraform-to-easily-manage-your-artifactory-infrastructure/">Use
-                                Terraform to Easily Manage Your Artifactory Infrastructure</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> April 24 2018</div>
-                        <p>
-                            Deploy Artifactory Using Terraform
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://www.jfrog.com/wp-content/uploads/2017/11/CircleCITop.png" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/fully-reproducible-builds-with-circleci-and-artifactory/">Fully
-                            Reproducible Builds with CircleCI and Artifactory</a> <i class="fas fa-angle-right"></i>
-                        </h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> April 24 2017</div>
-                        <p>
-                            Configuring CircleCI to push build artifacts to JFrog Artifactory
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://www.jfrog.com/wp-content/uploads/2017/11/Screen-Shot-2016-05-16-at-3.41.25-PM1-1024x511.png"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://jfrog.com/blog/empowering-bitbucket-version-control-with-promotion-and-distribution/">Empowering
-                                BitBucket Version Control with Promotion and Distribution</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> May 23 2016</div>
-                        <p>
-                            The JFrog Bitbucket add-on to monitor build pipeline
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2018/04/Artifactory_CloudFormation_830_330.png"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            <a href="https://jfrog.com/blog/learn-how-the-easily-scale-jfrog-artifactory-using-our-customized-template-in-30-minutes/">Easily
-                                Scale JFrog Artifactory with AWS CloudFormation</a> <i class="fas fa-angle-right"></i>
-                        </h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> April 12 2018</div>
-                        <p>
-                            Managing Your Artifactory Stack Using CloudFormation
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://jfrog.com/wp-content/uploads/2018/06/atl863X300.jpg" alt=""
-                            >
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://jfrog.com/blog/easily-use-jfrog-cli-in-the-atlassian-bitbucket-pipeline/">Containerize
-                            Node Microservices Using Atlassian Bitbucket Pipeline and JFrog CLI</a> <i
-                                class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> June 21 2018</div>
-                        <p>
-                            Use JFrog CLI to Easily Integrate into the Bitbucket pipeline
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 blog-box wow fadeInLeft">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="blog-box-image">
-                            <img src="https://media.licdn.com/media/gcrc/dms/image/C5612AQENxxXcDevxsQ/article-cover_image-shrink_720_1280/0?e=2129500800&v=beta&t=RS-hZ6aNA_OzsKgxJkd2UL-3KNlvAtz1i-DCY9J5VBE"
-                                 alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-9">
-                        <h3><a href="https://www.linkedin.com/pulse/bitbucket-add-on-2048-game-jainish-shah/">Bitbucket
-                            Add-on for 2048 Game using Atlassian Connect</a> <i class="fas fa-angle-right"></i></h3>
-                        <div class="blog-box-date"><i class="far fa-calendar"></i> April 23 2016</div>
-                        <p>
-                            Learn to create Add-on for Bitbucket
-                        </p>
-                    </div>
-                </div>
-            </div>
+            </article>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Footer -->
-<footer>
+<footer class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-5 footer-left">
-                <p>Designed By: Jainish Shah</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Jainish Shah</h3>
+                <p>Building the future with code, one commit at a time.</p>
             </div>
-
-            <div class="col-md-6 offset-md-1 footer-right">
-                <a href="https://www.facebook.com/jainish.shah.3979" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://github.com/jainishshah17" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/jainishshah24" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://instagram.com/_jainish_shah/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.pinterest.com/jainishshah3979/" target="_blank"><i
-                        class="fab fa-pinterest"></i></a>
-                <a href="https://www.youtube.com/channel/UCAloVYHTNxkyfbi4oUIYDvQ" target="_blank"><i
-                        class="fab fa-youtube"></i></a>
-                <a href="https://www.linkedin.com/in/jainishshah" target="_blank"><i class="fab fa-linkedin"></i></a>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://github.com/jainishshah17/jainishshah.com/raw/master/app/assets/documents/Jainish-Resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/jainishshah17" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jainishshah" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/jainishshah24" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://medium.com/@jainishshah17" target="_blank" aria-label="Medium">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCAloVYHTNxkyfbi4oUIYDvQ" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col footer-bottom">
-                <a class="scroll-link" href="#home-content"><i class="fas fa-chevron-up"></i></a>
-            </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Jainish Shah. Designed & Built with <i class="fas fa-heart"></i></p>
+            <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
         </div>
     </div>
 </footer>
 
-
 <!-- Javascript -->
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-<script src="assets/js/jquery.backstretch.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/retina-1.1.0.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/scripts.js"></script>
 
 </body>
