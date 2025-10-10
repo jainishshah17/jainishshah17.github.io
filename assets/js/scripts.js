@@ -1,6 +1,10 @@
 // ===================================
 // Modern Portfolio JavaScript
+// Version 2.0
 // ===================================
+
+// Note: ERR_BLOCKED_BY_CLIENT errors in console are from ad blockers/privacy extensions
+// blocking YouTube tracking/analytics. This is normal and doesn't affect functionality.
 
 (function() {
     'use strict';
