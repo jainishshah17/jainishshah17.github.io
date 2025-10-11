@@ -386,14 +386,15 @@ a:hover {
 .hero-image-container {
     position: relative;
     width: 280px;
-    height: 280px;
+    height: 350px;
 }
 
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: var(--radius-full);
+    object-position: center top;
+    border-radius: var(--radius-xl);
     box-shadow: var(--shadow-xl);
     border: 4px solid var(--bg-primary);
 }
@@ -405,7 +406,7 @@ a:hover {
     right: -10px;
     bottom: -10px;
     background: var(--accent-gradient);
-    border-radius: var(--radius-full);
+    border-radius: var(--radius-xl);
     z-index: -1;
     opacity: 0.3;
     filter: blur(20px);
