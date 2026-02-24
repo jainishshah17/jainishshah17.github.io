@@ -107,6 +107,33 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+.skip-link {
+    position: absolute;
+    left: var(--spacing-sm);
+    top: -100px;
+    z-index: 2000;
+    background: var(--accent-primary);
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+}
+
+.skip-link:focus {
+    top: var(--spacing-sm);
+    color: #ffffff;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--accent-primary);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
